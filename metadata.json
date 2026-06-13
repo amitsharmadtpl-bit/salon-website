@@ -1,0 +1,6 @@
+{
+  "name": "Salon Booking Management",
+  "description": "An upscale, modern, and mobile-responsive salon booking application with interactive client booking layouts and a Staff Dashboard preview.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
