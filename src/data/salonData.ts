@@ -4,6 +4,10 @@
  */
 
 import { Service, Appointment } from '../types';
+// @ts-ignore
+import artisanalColoringImage from '../assets/images/regenerated_image_1781349401936.png';
+// @ts-ignore
+import regeneratedPedicureImage from '../assets/images/regenerated_image_1781349397958.png';
 
 export const SALON_SERVICES: Service[] = [
   {
@@ -24,7 +28,7 @@ export const SALON_SERVICES: Service[] = [
     duration: 120,
     category: 'Hair',
     iconName: 'Sparkles',
-    imageUrl: '/Artisanal Coloring & Balayage.jpg'
+    imageUrl: artisanalColoringImage
   },
   {
     id: 's3',
@@ -44,7 +48,7 @@ export const SALON_SERVICES: Service[] = [
     duration: 50,
     category: 'Nails',
     iconName: 'Flower',
-    imageUrl: 'https://images.unsplash.com/photo-1519415510236-8a5169043d56?auto=format&fit=crop&w=600&h=400&q=80'
+    imageUrl: regeneratedPedicureImage
   },
   {
     id: 's5',
