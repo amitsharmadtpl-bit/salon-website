@@ -99,6 +99,7 @@ export default function ServicesPricing({ onSelectService }: ServicesPricingProp
                     alt={service.name}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-103"
                     referrerPolicy="no-referrer"
+                    id={`service-card-img-${service.id}`}
                   />
                   <div className="absolute top-3 right-3 px-2.5 py-1 bg-white/90 backdrop-blur-xs font-mono text-[9px] uppercase font-semibold text-brand-beige-800 tracking-wider rounded-full shadow-xs">
                     {service.category}
